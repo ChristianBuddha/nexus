@@ -1,4 +1,0 @@
-Invoking command in '/home/hs/ros2_study/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/sllidar_ros2 -- -j8 -l8
-Invoked command in '/home/hs/ros2_study/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/sllidar_ros2 -- -j8 -l8
-Invoking command in '/home/hs/ros2_study/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/sllidar_ros2
-Invoked command in '/home/hs/ros2_study/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/sllidar_ros2

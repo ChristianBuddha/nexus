@@ -1,15 +1,15 @@
-from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.conditions import IfCondition
-from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node
-from launch_ros.substitutions import FindPackageShare
+from launch import LaunchDescription 
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription 
+from launch.conditions import IfCondition 
+from launch.launch_description_sources import PythonLaunchDescriptionSource 
+from launch.substitutions import LaunchConfiguration 
+from launch_ros.actions import Node 
+from launch_ros.substitutions import FindPackageShare 
 from launch.substitutions import PathJoinSubstitution
-
 
 def generate_launch_description():
     return LaunchDescription([
-        DeclareLaunchArgument("serial_port", default_value="/dev/ttyUSB0"),
+        DeclareLaunchArgument("serial_port", default_value="/dev/ttyNEXUS"),
         DeclareLaunchArgument("serial_baud", default_value="115200"),
         DeclareLaunchArgument("tx_rate_hz", default_value="20.0"),
         DeclareLaunchArgument("cmd_timeout_ms", default_value="250"),
@@ -137,5 +137,5 @@ def generate_launch_description():
             parameters=[LaunchConfiguration("bno055_params")],
             output="screen",
         ),
-    
+        
     ])

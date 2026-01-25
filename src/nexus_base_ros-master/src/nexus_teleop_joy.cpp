@@ -20,8 +20,8 @@ public:
     axis_linear_x_ = declare_parameter<int>("axis_linear_x", 3);
     axis_linear_y_ = declare_parameter<int>("axis_linear_y", 2);
     axis_angular_z_ = declare_parameter<int>("axis_angular_z", 0);
-    max_vel_x_ = declare_parameter<double>("max_vel_x", 1.0);
-    max_vel_y_ = declare_parameter<double>("max_vel_y", 1.0);
+    max_vel_x_ = declare_parameter<double>("max_vel_x", 0.7);
+    max_vel_y_ = declare_parameter<double>("max_vel_y", 0.7);
     max_vel_th_ = declare_parameter<double>("max_vel_th", M_PI_4);
 
     vel_pub_ = create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 1);
