@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from nexus_base_ros/srv/EmergencyStopEnable.srv
+// generated code does not contain a copyright notice
+
+
+module nexus_base_ros {
+  module srv {
+    struct EmergencyStopEnable_Request {
+      boolean enable;
+    };
+    struct EmergencyStopEnable_Response {
+      boolean success;
+    };
+  };
+};

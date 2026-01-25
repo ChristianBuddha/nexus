@@ -1,0 +1,4 @@
+Invoking command in '/home/hs/ros2_study/build/nexus_base_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/nexus_base_ros -- -j8 -l8
+Invoked command in '/home/hs/ros2_study/build/nexus_base_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/nexus_base_ros -- -j8 -l8
+Invoking command in '/home/hs/ros2_study/build/nexus_base_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/nexus_base_ros
+Invoked command in '/home/hs/ros2_study/build/nexus_base_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/nexus_base_ros

@@ -1,0 +1,542 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.000277] (nexus_base_ros) JobQueued: {'identifier': 'nexus_base_ros', 'dependencies': OrderedDict()}
+[0.000310] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000337] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.011621] (nexus_base_ros) JobStarted: {'identifier': 'nexus_base_ros'}
+[0.018371] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.098903] (-) TimerEvent: {}
+[0.199248] (-) TimerEvent: {}
+[0.299613] (-) TimerEvent: {}
+[0.399954] (-) TimerEvent: {}
+[0.501812] (-) TimerEvent: {}
+[0.603148] (-) TimerEvent: {}
+[0.629177] (nexus_base_ros) JobProgress: {'identifier': 'nexus_base_ros', 'progress': 'cmake'}
+[0.631187] (nexus_base_ros) JobProgress: {'identifier': 'nexus_base_ros', 'progress': 'build'}
+[0.633300] (nexus_base_ros) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/hs/ros2_study/build/nexus_base_ros', '--', '-j8', '-l8'], 'cwd': '/home/hs/ros2_study/build/nexus_base_ros', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hs'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hs/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hs/ros2_study/install/nexus_base_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2975'), ('BUNDLED_DEBUGPY_PATH', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hs/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2024b/bin:/usr/local/MATLAB/R2024b/bin:/opt/ros/humble/bin:/home/hs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hs/esp/xtensa-esp32-elf/bin:/opt/JLink:/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/opt/JLink'), ('SESSION_MANAGER', 'local/hs-760XBE:@/tmp/.ICE-unix/2975,unix/hs-760XBE:/tmp/.ICE-unix/2975'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c624cff7_ea00_4557_80b0_6ca17a5db9be'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dc2f40e9dcc4fe.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2A37I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c015e2e957.sock'), ('GNOME_TERMINAL_SERVICE', ':1.570'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/bno055:/home/hs/ros2_study/install/nexus_base_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hs/ros2_study/build/nexus_base_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/nexus_base_ros:/home/hs/ros2_study/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.640255] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.641488] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.643151] (sllidar_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/hs/ros2_study/build/sllidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/hs/ros2_study/build/sllidar_ros2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hs'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hs/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hs/ros2_study/install/nexus_base_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2975'), ('BUNDLED_DEBUGPY_PATH', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hs/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2024b/bin:/usr/local/MATLAB/R2024b/bin:/opt/ros/humble/bin:/home/hs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hs/esp/xtensa-esp32-elf/bin:/opt/JLink:/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/opt/JLink'), ('SESSION_MANAGER', 'local/hs-760XBE:@/tmp/.ICE-unix/2975,unix/hs-760XBE:/tmp/.ICE-unix/2975'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c624cff7_ea00_4557_80b0_6ca17a5db9be'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dc2f40e9dcc4fe.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2A37I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c015e2e957.sock'), ('GNOME_TERMINAL_SERVICE', ':1.570'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/bno055:/home/hs/ros2_study/install/nexus_base_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hs/ros2_study/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/nexus_base_ros:/home/hs/ros2_study/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.703345] (-) TimerEvent: {}
+[0.712684] (nexus_base_ros) StdoutLine: {'line': b'[  1%] Built target nexus_base_ros__cpp\n'}
+[0.721723] (nexus_base_ros) StdoutLine: {'line': b'[ 11%] Built target nexus_base_ros__rosidl_generator_c\n'}
+[0.733678] (nexus_base_ros) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_nexus_base_ros\n'}
+[0.735071] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.760115] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.763327] (nexus_base_ros) StdoutLine: {'line': b'[ 26%] Built target nexus_base_ros__rosidl_typesupport_introspection_cpp\n'}
+[0.764792] (nexus_base_ros) StdoutLine: {'line': b'[ 39%] Built target nexus_base_ros__rosidl_typesupport_cpp\n'}
+[0.765238] (nexus_base_ros) StdoutLine: {'line': b'[ 40%] Built target nexus_base_ros__rosidl_typesupport_introspection_c\n'}
+[0.765455] (nexus_base_ros) StdoutLine: {'line': b'[ 50%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[0.766042] (nexus_base_ros) StdoutLine: {'line': b'[ 60%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_c\n'}
+[0.773699] (nexus_base_ros) StdoutLine: {'line': b'[ 70%] Built target nexus_base_ros__rosidl_typesupport_c\n'}
+[0.774169] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.776117] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.783078] (sllidar_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/hs/ros2_study/build/sllidar_ros2'], 'cwd': '/home/hs/ros2_study/build/sllidar_ros2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hs'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hs/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hs/ros2_study/install/nexus_base_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2975'), ('BUNDLED_DEBUGPY_PATH', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hs/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2024b/bin:/usr/local/MATLAB/R2024b/bin:/opt/ros/humble/bin:/home/hs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hs/esp/xtensa-esp32-elf/bin:/opt/JLink:/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/opt/JLink'), ('SESSION_MANAGER', 'local/hs-760XBE:@/tmp/.ICE-unix/2975,unix/hs-760XBE:/tmp/.ICE-unix/2975'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c624cff7_ea00_4557_80b0_6ca17a5db9be'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dc2f40e9dcc4fe.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2A37I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c015e2e957.sock'), ('GNOME_TERMINAL_SERVICE', ':1.570'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/bno055:/home/hs/ros2_study/install/nexus_base_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hs/ros2_study/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/nexus_base_ros:/home/hs/ros2_study/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.792414] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.792926] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[0.793174] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.793380] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.793573] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.794142] (nexus_base_ros) StdoutLine: {'line': b'[ 70%] Built target nexus_base_ros\n'}
+[0.794363] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.794549] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch.py\n'}
+[0.795042] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.795265] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.796362] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.796792] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.796995] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.797185] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.797363] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.797552] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.797743] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.798066] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.798258] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.798443] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.798630] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.798852] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.799051] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.799234] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.799413] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.799614] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.799808] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.799992] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[0.800170] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.800345] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.800514] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.800707] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.800898] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.801063] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.806265] (-) TimerEvent: {}
+[0.806537] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.806775] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.806954] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.807114] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.807274] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.807441] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.807605] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.807804] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.807955] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.808113] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.808274] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.808430] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.808592] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.809042] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.809215] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.828895] (nexus_base_ros) StdoutLine: {'line': b'[ 72%] Built target nexus_base_ros__py\n'}
+[0.846879] (nexus_base_ros) StdoutLine: {'line': b'[ 75%] Built target nexus_odometry\n'}
+[0.848984] (nexus_base_ros) StdoutLine: {'line': b'[ 78%] Built target nexus_teleop_joy\n'}
+[0.864922] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.870051] (nexus_base_ros) StdoutLine: {'line': b'[ 86%] Built target nexus_base_ros__rosidl_generator_py\n'}
+[0.876257] (nexus_base_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/nexus_serial_bridge.dir/src/nexus_serial_bridge.cpp.o\x1b[0m\n'}
+[0.904157] (nexus_base_ros) StdoutLine: {'line': b'[ 91%] Built target nexus_base_ros__rosidl_typesupport_c__pyext\n'}
+[0.908292] (nexus_base_ros) StdoutLine: {'line': b'[ 95%] Built target nexus_base_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[0.909126] (-) TimerEvent: {}
+[0.913788] (nexus_base_ros) StdoutLine: {'line': b'[ 98%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.009235] (-) TimerEvent: {}
+[1.109615] (-) TimerEvent: {}
+[1.209993] (-) TimerEvent: {}
+[1.310358] (-) TimerEvent: {}
+[1.320090] (nexus_base_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.321274] (nexus_base_ros) StdoutLine: {'line': b'writing nexus_base_ros.egg-info/PKG-INFO\n'}
+[1.321731] (nexus_base_ros) StdoutLine: {'line': b'writing dependency_links to nexus_base_ros.egg-info/dependency_links.txt\n'}
+[1.322018] (nexus_base_ros) StdoutLine: {'line': b'writing top-level names to nexus_base_ros.egg-info/top_level.txt\n'}
+[1.326257] (nexus_base_ros) StdoutLine: {'line': b"reading manifest file 'nexus_base_ros.egg-info/SOURCES.txt'\n"}
+[1.327242] (nexus_base_ros) StdoutLine: {'line': b"writing manifest file 'nexus_base_ros.egg-info/SOURCES.txt'\n"}
+[1.369573] (nexus_base_ros) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_nexus_base_ros_egg\n'}
+[1.410611] (-) TimerEvent: {}
+[1.511580] (-) TimerEvent: {}
+[1.534421] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/hs/ros2_study/build/bno055/build', 'install', '--record', '/home/hs/ros2_study/build/bno055/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hs/ros2_study/src/bno055', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_US:en', 'USER': 'hs', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'STM32CubeMX_PATH': '/home/hs/STM32CubeMX', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/hs/ros2_study/install/nexus_base_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hs', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.108.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2975', 'BUNDLED_DEBUGPY_PATH': '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hs/ros2_study/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hs', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/MATLAB/R2024b/bin:/usr/local/MATLAB/R2024b/bin:/opt/ros/humble/bin:/home/hs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hs/esp/xtensa-esp32-elf/bin:/opt/JLink:/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/opt/JLink', 'SESSION_MANAGER': 'local/hs-760XBE:@/tmp/.ICE-unix/2975,unix/hs-760XBE:/tmp/.ICE-unix/2975', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c624cff7_ea00_4557_80b0_6ca17a5db9be', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dc2f40e9dcc4fe.txt', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2A37I3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c015e2e957.sock', 'GNOME_TERMINAL_SERVICE': ':1.570', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/bno055:/home/hs/ros2_study/install/nexus_base_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hs/ros2_study/build/bno055', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/humble/lib:/opt/ros/humble/lib', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hs/ros2_study/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/nexus_base_ros'}, 'shell': False}
+[1.611712] (-) TimerEvent: {}
+[1.712135] (-) TimerEvent: {}
+[1.812561] (-) TimerEvent: {}
+[1.912975] (-) TimerEvent: {}
+[2.013498] (-) TimerEvent: {}
+[2.047598] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[2.048805] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[2.049185] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[2.049481] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[2.049713] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[2.049930] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[2.054380] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[2.054816] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.054939] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[2.056940] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[2.057534] (bno055) StdoutLine: {'line': b'running build\n'}
+[2.057796] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[2.060088] (bno055) StdoutLine: {'line': b'running install\n'}
+[2.060813] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[2.063990] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[2.064294] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.067166] (bno055) StdoutLine: {'line': b"removing '/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info' (and everything under it)\n"}
+[2.067604] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/hs/ros2_study/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info\n'}
+[2.068784] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[2.103422] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/hs/ros2_study/install/bno055/lib/bno055\n'}
+[2.104479] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/hs/ros2_study/build/bno055/install.log'\n"}
+[2.113613] (-) TimerEvent: {}
+[2.151653] (bno055) CommandEnded: {'returncode': 0}
+[2.167600] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[2.213705] (-) TimerEvent: {}
+[2.313995] (-) TimerEvent: {}
+[2.414330] (-) TimerEvent: {}
+[2.514698] (-) TimerEvent: {}
+[2.615060] (-) TimerEvent: {}
+[2.715443] (-) TimerEvent: {}
+[2.815748] (-) TimerEvent: {}
+[2.916151] (-) TimerEvent: {}
+[3.016494] (-) TimerEvent: {}
+[3.116834] (-) TimerEvent: {}
+[3.217177] (-) TimerEvent: {}
+[3.317558] (-) TimerEvent: {}
+[3.417891] (-) TimerEvent: {}
+[3.518721] (-) TimerEvent: {}
+[3.619145] (-) TimerEvent: {}
+[3.719538] (-) TimerEvent: {}
+[3.819841] (-) TimerEvent: {}
+[3.920168] (-) TimerEvent: {}
+[4.020512] (-) TimerEvent: {}
+[4.120808] (-) TimerEvent: {}
+[4.221134] (-) TimerEvent: {}
+[4.321467] (-) TimerEvent: {}
+[4.421737] (-) TimerEvent: {}
+[4.522110] (-) TimerEvent: {}
+[4.622438] (-) TimerEvent: {}
+[4.722749] (-) TimerEvent: {}
+[4.823119] (-) TimerEvent: {}
+[4.923512] (-) TimerEvent: {}
+[5.023841] (-) TimerEvent: {}
+[5.124156] (-) TimerEvent: {}
+[5.224539] (-) TimerEvent: {}
+[5.324893] (-) TimerEvent: {}
+[5.425198] (-) TimerEvent: {}
+[5.525527] (-) TimerEvent: {}
+[5.625830] (-) TimerEvent: {}
+[5.726166] (-) TimerEvent: {}
+[5.826526] (-) TimerEvent: {}
+[5.926862] (-) TimerEvent: {}
+[6.027221] (-) TimerEvent: {}
+[6.127557] (-) TimerEvent: {}
+[6.227868] (-) TimerEvent: {}
+[6.328231] (-) TimerEvent: {}
+[6.428551] (-) TimerEvent: {}
+[6.528958] (-) TimerEvent: {}
+[6.629296] (-) TimerEvent: {}
+[6.729624] (-) TimerEvent: {}
+[6.829978] (-) TimerEvent: {}
+[6.930301] (-) TimerEvent: {}
+[7.030660] (-) TimerEvent: {}
+[7.131055] (-) TimerEvent: {}
+[7.231459] (-) TimerEvent: {}
+[7.331744] (-) TimerEvent: {}
+[7.432096] (-) TimerEvent: {}
+[7.532460] (-) TimerEvent: {}
+[7.632797] (-) TimerEvent: {}
+[7.733161] (-) TimerEvent: {}
+[7.833607] (-) TimerEvent: {}
+[7.933914] (-) TimerEvent: {}
+[8.034273] (-) TimerEvent: {}
+[8.134610] (-) TimerEvent: {}
+[8.234924] (-) TimerEvent: {}
+[8.335255] (-) TimerEvent: {}
+[8.435607] (-) TimerEvent: {}
+[8.535968] (-) TimerEvent: {}
+[8.636297] (-) TimerEvent: {}
+[8.736697] (-) TimerEvent: {}
+[8.837018] (-) TimerEvent: {}
+[8.937354] (-) TimerEvent: {}
+[9.037730] (-) TimerEvent: {}
+[9.138044] (-) TimerEvent: {}
+[9.238392] (-) TimerEvent: {}
+[9.338740] (-) TimerEvent: {}
+[9.439058] (-) TimerEvent: {}
+[9.539359] (-) TimerEvent: {}
+[9.639715] (-) TimerEvent: {}
+[9.740147] (-) TimerEvent: {}
+[9.840484] (-) TimerEvent: {}
+[9.940790] (-) TimerEvent: {}
+[10.041132] (-) TimerEvent: {}
+[10.141472] (-) TimerEvent: {}
+[10.241859] (-) TimerEvent: {}
+[10.342312] (-) TimerEvent: {}
+[10.442707] (-) TimerEvent: {}
+[10.543148] (-) TimerEvent: {}
+[10.643456] (-) TimerEvent: {}
+[10.743830] (-) TimerEvent: {}
+[10.844178] (-) TimerEvent: {}
+[10.944615] (-) TimerEvent: {}
+[11.045055] (-) TimerEvent: {}
+[11.145465] (-) TimerEvent: {}
+[11.245902] (-) TimerEvent: {}
+[11.346341] (-) TimerEvent: {}
+[11.446767] (-) TimerEvent: {}
+[11.547167] (-) TimerEvent: {}
+[11.647566] (-) TimerEvent: {}
+[11.747934] (-) TimerEvent: {}
+[11.852010] (-) TimerEvent: {}
+[11.952482] (-) TimerEvent: {}
+[12.052830] (-) TimerEvent: {}
+[12.153170] (-) TimerEvent: {}
+[12.253698] (-) TimerEvent: {}
+[12.354183] (-) TimerEvent: {}
+[12.454644] (-) TimerEvent: {}
+[12.554990] (-) TimerEvent: {}
+[12.655307] (-) TimerEvent: {}
+[12.755633] (-) TimerEvent: {}
+[12.855984] (-) TimerEvent: {}
+[12.956378] (-) TimerEvent: {}
+[13.056719] (-) TimerEvent: {}
+[13.157034] (-) TimerEvent: {}
+[13.257360] (-) TimerEvent: {}
+[13.357725] (-) TimerEvent: {}
+[13.458037] (-) TimerEvent: {}
+[13.558346] (-) TimerEvent: {}
+[13.658809] (-) TimerEvent: {}
+[13.759241] (-) TimerEvent: {}
+[13.859526] (-) TimerEvent: {}
+[13.959819] (-) TimerEvent: {}
+[14.060143] (-) TimerEvent: {}
+[14.160473] (-) TimerEvent: {}
+[14.260755] (-) TimerEvent: {}
+[14.361113] (-) TimerEvent: {}
+[14.461477] (-) TimerEvent: {}
+[14.562007] (-) TimerEvent: {}
+[14.662400] (-) TimerEvent: {}
+[14.762742] (-) TimerEvent: {}
+[14.863173] (-) TimerEvent: {}
+[14.963470] (-) TimerEvent: {}
+[15.063789] (-) TimerEvent: {}
+[15.164162] (-) TimerEvent: {}
+[15.264539] (-) TimerEvent: {}
+[15.364872] (-) TimerEvent: {}
+[15.466131] (-) TimerEvent: {}
+[15.566564] (-) TimerEvent: {}
+[15.667145] (-) TimerEvent: {}
+[15.767486] (-) TimerEvent: {}
+[15.867803] (-) TimerEvent: {}
+[15.968133] (-) TimerEvent: {}
+[16.068466] (-) TimerEvent: {}
+[16.168755] (-) TimerEvent: {}
+[16.269075] (-) TimerEvent: {}
+[16.369369] (-) TimerEvent: {}
+[16.469765] (-) TimerEvent: {}
+[16.570333] (-) TimerEvent: {}
+[16.670712] (-) TimerEvent: {}
+[16.771065] (-) TimerEvent: {}
+[16.871407] (-) TimerEvent: {}
+[16.971748] (-) TimerEvent: {}
+[17.072062] (-) TimerEvent: {}
+[17.172375] (-) TimerEvent: {}
+[17.272695] (-) TimerEvent: {}
+[17.373004] (-) TimerEvent: {}
+[17.473334] (-) TimerEvent: {}
+[17.573690] (-) TimerEvent: {}
+[17.674036] (-) TimerEvent: {}
+[17.774352] (-) TimerEvent: {}
+[17.874629] (-) TimerEvent: {}
+[17.974958] (-) TimerEvent: {}
+[18.075231] (-) TimerEvent: {}
+[18.175522] (-) TimerEvent: {}
+[18.275829] (-) TimerEvent: {}
+[18.376141] (-) TimerEvent: {}
+[18.476452] (-) TimerEvent: {}
+[18.576790] (-) TimerEvent: {}
+[18.677166] (-) TimerEvent: {}
+[18.777615] (-) TimerEvent: {}
+[18.878056] (-) TimerEvent: {}
+[18.978377] (-) TimerEvent: {}
+[19.078703] (-) TimerEvent: {}
+[19.179020] (-) TimerEvent: {}
+[19.279387] (-) TimerEvent: {}
+[19.379714] (-) TimerEvent: {}
+[19.480030] (-) TimerEvent: {}
+[19.580352] (-) TimerEvent: {}
+[19.680699] (-) TimerEvent: {}
+[19.780998] (-) TimerEvent: {}
+[19.881331] (-) TimerEvent: {}
+[19.981688] (-) TimerEvent: {}
+[20.082110] (-) TimerEvent: {}
+[20.182493] (-) TimerEvent: {}
+[20.282816] (-) TimerEvent: {}
+[20.321578] (nexus_base_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nexus_serial_bridge\x1b[0m\n'}
+[20.384746] (-) TimerEvent: {}
+[20.485212] (-) TimerEvent: {}
+[20.585671] (-) TimerEvent: {}
+[20.687259] (-) TimerEvent: {}
+[20.787743] (-) TimerEvent: {}
+[20.888185] (-) TimerEvent: {}
+[20.988528] (-) TimerEvent: {}
+[21.088995] (-) TimerEvent: {}
+[21.189692] (-) TimerEvent: {}
+[21.290099] (-) TimerEvent: {}
+[21.378035] (nexus_base_ros) StdoutLine: {'line': b'[100%] Built target nexus_serial_bridge\n'}
+[21.387178] (nexus_base_ros) CommandEnded: {'returncode': 0}
+[21.388624] (nexus_base_ros) JobProgress: {'identifier': 'nexus_base_ros', 'progress': 'install'}
+[21.389050] (nexus_base_ros) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/hs/ros2_study/build/nexus_base_ros'], 'cwd': '/home/hs/ros2_study/build/nexus_base_ros', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hs'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/hs/STM32CubeMX'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hs/ros2_study/install/nexus_base_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hs'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2975'), ('BUNDLED_DEBUGPY_PATH', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hs/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/MATLAB/R2024b/bin:/usr/local/MATLAB/R2024b/bin:/opt/ros/humble/bin:/home/hs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hs/esp/xtensa-esp32-elf/bin:/opt/JLink:/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/opt/JLink'), ('SESSION_MANAGER', 'local/hs-760XBE:@/tmp/.ICE-unix/2975,unix/hs-760XBE:/tmp/.ICE-unix/2975'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c624cff7_ea00_4557_80b0_6ca17a5db9be'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hs/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dc2f40e9dcc4fe.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2A37I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c015e2e957.sock'), ('GNOME_TERMINAL_SERVICE', ':1.570'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/bno055:/home/hs/ros2_study/install/nexus_base_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hs/ros2_study/build/nexus_base_ros'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/opt/ros/humble/lib:/opt/ros/humble/lib'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f963dfa289b34d744642bec3696fbd95'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hs/ros2_study/install/bno055/lib/python3.10/site-packages:/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hs/ros2_study/install/sllidar_ros2:/home/hs/ros2_study/install/nexus_base_ros:/home/hs/ros2_study/install/bno055:/opt/ros/humble')]), 'shell': False}
+[21.390808] (-) TimerEvent: {}
+[21.395940] (nexus_base_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.396317] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/rosidl_interfaces/nexus_base_ros\n'}
+[21.396571] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.396814] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.397046] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.397411] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.h\n'}
+[21.397781] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__functions.c\n'}
+[21.398232] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__struct.h\n'}
+[21.398539] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__functions.c\n'}
+[21.398680] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__functions.h\n'}
+[21.398796] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__struct.h\n'}
+[21.398894] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.h\n'}
+[21.398992] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__functions.h\n'}
+[21.399188] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/arming_enable.h\n'}
+[21.399339] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/emergency_stop_enable.h\n'}
+[21.399476] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.399658] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.399837] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__functions.c\n'}
+[21.400057] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__struct.h\n'}
+[21.400294] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__functions.h\n'}
+[21.400483] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__functions.h\n'}
+[21.400609] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.h\n'}
+[21.400778] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.h\n'}
+[21.400899] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__struct.h\n'}
+[21.401049] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__functions.c\n'}
+[21.401248] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.401401] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/motors.h\n'}
+[21.401565] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/encoders.h\n'}
+[21.401791] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/library_path.sh\n'}
+[21.402031] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/library_path.dsv\n'}
+[21.402281] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_generator_c.so\n'}
+[21.402488] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.402658] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.402953] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.403072] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_fastrtps_c.h\n'}
+[21.403202] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_fastrtps_c.h\n'}
+[21.403327] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.403446] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.403565] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_fastrtps_c.h\n'}
+[21.403787] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_fastrtps_c.h\n'}
+[21.403927] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.404018] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[21.404104] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.404201] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.404302] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.404389] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.hpp\n'}
+[21.404508] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.hpp\n'}
+[21.404627] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__traits.hpp\n'}
+[21.404863] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__builder.hpp\n'}
+[21.404965] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__builder.hpp\n'}
+[21.405084] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__traits.hpp\n'}
+[21.405265] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__struct.hpp\n'}
+[21.405385] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__struct.hpp\n'}
+[21.405832] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/emergency_stop_enable.hpp\n'}
+[21.406063] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/arming_enable.hpp\n'}
+[21.406247] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.406419] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.406614] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.hpp\n'}
+[21.406774] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__struct.hpp\n'}
+[21.406866] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__traits.hpp\n'}
+[21.406951] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__traits.hpp\n'}
+[21.407035] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__builder.hpp\n'}
+[21.407121] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__builder.hpp\n'}
+[21.407205] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__struct.hpp\n'}
+[21.407289] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.hpp\n'}
+[21.407404] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/encoders.hpp\n'}
+[21.407520] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/motors.hpp\n'}
+[21.407639] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.407878] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.407981] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.408101] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.408217] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.408334] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.408451] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/dds_fastrtps\n'}
+[21.408745] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.408953] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.409062] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/dds_fastrtps\n'}
+[21.409153] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.409253] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.409347] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.409437] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.409529] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.409619] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.409766] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.409855] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.c\n'}
+[21.409937] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.c\n'}
+[21.410043] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_introspection_c.h\n'}
+[21.410144] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_introspection_c.h\n'}
+[21.410230] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.410314] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.410403] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.410493] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.c\n'}
+[21.410583] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_introspection_c.h\n'}
+[21.410688] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.c\n'}
+[21.410786] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_introspection_c.h\n'}
+[21.410877] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_introspection_c.so\n'}
+[21.411053] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_c.so\n'}
+[21.411136] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros\n'}
+[21.411226] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv\n'}
+[21.411315] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail\n'}
+[21.411403] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.cpp\n'}
+[21.411493] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.cpp\n'}
+[21.411583] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.411750] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.411846] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg\n'}
+[21.411938] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail\n'}
+[21.412091] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.cpp\n'}
+[21.412249] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.412395] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.cpp\n'}
+[21.412541] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.412658] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[21.413013] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_cpp.so\n'}
+[21.413137] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/pythonpath.sh\n'}
+[21.413297] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/pythonpath.dsv\n'}
+[21.413458] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info\n'}
+[21.413626] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[21.413891] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[21.414043] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[21.414162] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[21.414318] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros\n'}
+[21.414459] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.414607] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/libnexus_base_ros__rosidl_generator_py.so\n'}
+[21.414783] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.414935] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.415031] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.415120] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_c.c\n'}
+[21.415236] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv\n'}
+[21.415323] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_arming_enable.py\n'}
+[21.415407] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_emergency_stop_enable_s.c\n'}
+[21.415491] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/__init__.py\n'}
+[21.415574] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_arming_enable_s.c\n'}
+[21.415677] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_emergency_stop_enable.py\n'}
+[21.415774] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg\n'}
+[21.415897] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_encoders.py\n'}
+[21.415983] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_motors.py\n'}
+[21.416067] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_encoders_s.c\n'}
+[21.416150] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_motors_s.c\n'}
+[21.416247] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/__init__.py\n'}
+[21.416358] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/__init__.py\n'}
+[21.416471] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.468356] (nexus_base_ros) StdoutLine: {'line': b"Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros'...\n"}
+[21.468617] (nexus_base_ros) StdoutLine: {'line': b"Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg'...\n"}
+[21.468770] (nexus_base_ros) StdoutLine: {'line': b"Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv'...\n"}
+[21.475858] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.476491] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.477185] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.477915] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_generator_py.so\n'}
+[21.478227] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Encoders.idl\n'}
+[21.478455] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Motors.idl\n'}
+[21.478631] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable.idl\n'}
+[21.478794] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable.idl\n'}
+[21.478913] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Encoders.msg\n'}
+[21.479006] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Motors.msg\n'}
+[21.479095] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable.srv\n'}
+[21.479186] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable_Request.msg\n'}
+[21.479323] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable_Response.msg\n'}
+[21.479412] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable.srv\n'}
+[21.479497] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable_Request.msg\n'}
+[21.479628] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable_Response.msg\n'}
+[21.479909] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_serial_bridge\n'}
+[21.486039] (nexus_base_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_serial_bridge" to ""\n'}
+[21.486532] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_odometry\n'}
+[21.487470] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_teleop_joy\n'}
+[21.487774] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/launch\n'}
+[21.487975] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/launch/nexus_bringup.launch.py\n'}
+[21.488303] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/package_run_dependencies/nexus_base_ros\n'}
+[21.488501] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/parent_prefix_path/nexus_base_ros\n'}
+[21.488756] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/ament_prefix_path.sh\n'}
+[21.488974] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/ament_prefix_path.dsv\n'}
+[21.489150] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/path.sh\n'}
+[21.489389] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/path.dsv\n'}
+[21.489559] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.bash\n'}
+[21.489748] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.sh\n'}
+[21.489946] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.zsh\n'}
+[21.490072] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.dsv\n'}
+[21.490178] (nexus_base_ros) StdoutLine: {'line': b'-- Installing: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/package.dsv\n'}
+[21.490283] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/packages/nexus_base_ros\n'}
+[21.490479] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cExport.cmake\n'}
+[21.490706] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.490840] (-) TimerEvent: {}
+[21.491091] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.491292] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[21.491611] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cppExport.cmake\n'}
+[21.492046] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.492262] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[21.492521] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.492744] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.493129] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cExport.cmake\n'}
+[21.493274] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.493619] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.493779] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.494077] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cppExport.cmake\n'}
+[21.494269] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.494635] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_pyExport.cmake\n'}
+[21.494868] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[21.495133] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[21.495353] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.495582] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.495739] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.495907] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.496076] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.496234] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.496389] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_rosConfig.cmake\n'}
+[21.496537] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_rosConfig-version.cmake\n'}
+[21.496691] (nexus_base_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/package.xml\n'}
+[21.498191] (nexus_base_ros) CommandEnded: {'returncode': 0}
+[21.522231] (nexus_base_ros) JobEnded: {'identifier': 'nexus_base_ros', 'rc': 0}
+[21.523108] (-) EventReactorShutdown: {}

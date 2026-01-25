@@ -1,0 +1,9 @@
+{
+  "package_name": "nexus_base_ros",
+  "non_idl_tuples": [
+    "/home/hs/ros2_study/src/nexus_base_ros-master:msg/Encoders.msg",
+    "/home/hs/ros2_study/src/nexus_base_ros-master:msg/Motors.msg",
+    "/home/hs/ros2_study/src/nexus_base_ros-master:srv/EmergencyStopEnable.srv",
+    "/home/hs/ros2_study/src/nexus_base_ros-master:srv/ArmingEnable.srv"
+  ]
+}

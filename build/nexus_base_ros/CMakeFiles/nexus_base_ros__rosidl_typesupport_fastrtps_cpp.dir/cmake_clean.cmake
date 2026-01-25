@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/encoders__type_support.cpp.o"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/encoders__type_support.cpp.o.d"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/motors__type_support.cpp.o"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/motors__type_support.cpp.o.d"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/arming_enable__type_support.cpp.o"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/arming_enable__type_support.cpp.o.d"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/emergency_stop_enable__type_support.cpp.o"
+  "CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/emergency_stop_enable__type_support.cpp.o.d"
+  "libnexus_base_ros__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libnexus_base_ros__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/encoders__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/dds_fastrtps/motors__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/arming_enable__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/dds_fastrtps/emergency_stop_enable__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nexus_base_ros__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

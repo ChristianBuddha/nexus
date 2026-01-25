@@ -1,0 +1,80 @@
+cmake_minimum_required(VERSION 3.5)
+project(nexus_base_ros)
+
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(Boost REQUIRED COMPONENTS system)
+
+set(msg_files
+  "msg/Encoders.msg"
+  "msg/Motors.msg"
+)
+
+set(srv_files
+  "srv/EmergencyStopEnable.srv"
+  "srv/ArmingEnable.srv"
+)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  ${srv_files}
+  DEPENDENCIES std_msgs
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+add_executable(nexus_serial_bridge src/nexus_serial_bridge.cpp)
+ament_target_dependencies(nexus_serial_bridge
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+  std_msgs
+  tf2
+  tf2_ros
+)
+target_link_libraries(nexus_serial_bridge Boost::system)
+
+add_executable(nexus_odometry src/nexus_odometry.cpp)
+ament_target_dependencies(nexus_odometry
+  rclcpp
+  geometry_msgs
+  nav_msgs
+  std_msgs
+  tf2
+  tf2_ros
+)
+
+add_executable(nexus_teleop_joy src/nexus_teleop_joy.cpp)
+ament_target_dependencies(nexus_teleop_joy
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+rosidl_target_interfaces(nexus_serial_bridge ${PROJECT_NAME} "rosidl_typesupport_cpp")
+rosidl_target_interfaces(nexus_odometry ${PROJECT_NAME} "rosidl_typesupport_cpp")
+rosidl_target_interfaces(nexus_teleop_joy ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+install(TARGETS
+  nexus_serial_bridge
+  nexus_odometry
+  nexus_teleop_joy
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+ament_package()

@@ -1,0 +1,232 @@
+[0.535s] Invoking command in '/home/hs/ros2_study/build/nexus_base_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hs/ros2_study/install/bno055:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/nexus_base_ros -- -j8 -l8
+[0.581s] [  1%] Built target nexus_base_ros__cpp
+[0.590s] [ 11%] Built target nexus_base_ros__rosidl_generator_c
+[0.591s] [ 11%] Built target ament_cmake_python_copy_nexus_base_ros
+[0.615s] [ 21%] Built target nexus_base_ros__rosidl_typesupport_cpp
+[0.617s] [ 31%] Built target nexus_base_ros__rosidl_typesupport_introspection_c
+[0.618s] [ 40%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_cpp
+[0.626s] [ 50%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_c
+[0.626s] [ 60%] Built target nexus_base_ros__rosidl_typesupport_introspection_cpp
+[0.627s] [ 70%] Built target nexus_base_ros__rosidl_typesupport_c
+[0.644s] [ 70%] Built target nexus_base_ros
+[0.670s] [ 72%] Built target nexus_base_ros__py
+[0.686s] [ 75%] Built target nexus_odometry
+[0.687s] [ 78%] Built target nexus_teleop_joy
+[0.699s] [ 86%] Built target nexus_base_ros__rosidl_generator_py
+[0.709s] [ 90%] Built target nexus_serial_bridge
+[0.723s] [ 96%] Built target nexus_base_ros__rosidl_typesupport_c__pyext
+[0.723s] [ 96%] Built target nexus_base_ros__rosidl_typesupport_introspection_c__pyext
+[0.723s] [100%] Built target nexus_base_ros__rosidl_typesupport_fastrtps_c__pyext
+[1.094s] running egg_info
+[1.095s] writing nexus_base_ros.egg-info/PKG-INFO
+[1.095s] writing dependency_links to nexus_base_ros.egg-info/dependency_links.txt
+[1.096s] writing top-level names to nexus_base_ros.egg-info/top_level.txt
+[1.101s] reading manifest file 'nexus_base_ros.egg-info/SOURCES.txt'
+[1.102s] writing manifest file 'nexus_base_ros.egg-info/SOURCES.txt'
+[1.140s] [100%] Built target ament_cmake_python_build_nexus_base_ros_egg
+[1.149s] Invoked command in '/home/hs/ros2_study/build/nexus_base_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hs/ros2_study/install/bno055:/opt/ros/humble /usr/local/bin/cmake --build /home/hs/ros2_study/build/nexus_base_ros -- -j8 -l8
+[1.151s] Invoking command in '/home/hs/ros2_study/build/nexus_base_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hs/ros2_study/install/bno055:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/nexus_base_ros
+[1.160s] -- Install configuration: ""
+[1.160s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/rosidl_interfaces/nexus_base_ros
+[1.161s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.161s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.161s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.161s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.h
+[1.162s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__functions.c
+[1.162s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__struct.h
+[1.162s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__functions.c
+[1.162s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__functions.h
+[1.163s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__struct.h
+[1.163s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.h
+[1.163s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__functions.h
+[1.163s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/arming_enable.h
+[1.164s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/emergency_stop_enable.h
+[1.164s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.164s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.164s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__functions.c
+[1.164s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__struct.h
+[1.165s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__functions.h
+[1.165s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__functions.h
+[1.165s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.h
+[1.165s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.h
+[1.166s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__struct.h
+[1.166s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__functions.c
+[1.166s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_generator_c__visibility_control.h
+[1.166s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/motors.h
+[1.166s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/encoders.h
+[1.167s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/library_path.sh
+[1.167s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/library_path.dsv
+[1.167s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_generator_c.so
+[1.167s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.167s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.168s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.168s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_fastrtps_c.h
+[1.168s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_fastrtps_c.h
+[1.168s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.168s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_fastrtps_c.h
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_fastrtps_c.h
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_fastrtps_c.so
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.169s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.hpp
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.hpp
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__traits.hpp
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__builder.hpp
+[1.170s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__builder.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__traits.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__struct.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__struct.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/emergency_stop_enable.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/arming_enable.hpp
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.171s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.hpp
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__struct.hpp
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__traits.hpp
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__traits.hpp
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__builder.hpp
+[1.172s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__builder.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__struct.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/encoders.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/motors.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.173s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_fastrtps_cpp.hpp
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/dds_fastrtps
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.174s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/dds_fastrtps
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_fastrtps_cpp.hpp
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_fastrtps_cpp.hpp
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_fastrtps_cpp.so
+[1.175s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.c
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.c
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_introspection_c.h
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_introspection_c.h
+[1.176s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.c
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_introspection_c.h
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.c
+[1.177s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_introspection_c.h
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_introspection_c.so
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_c.so
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__type_support.cpp
+[1.178s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__type_support.cpp
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/emergency_stop_enable__rosidl_typesupport_introspection_cpp.hpp
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/srv/detail/arming_enable__rosidl_typesupport_introspection_cpp.hpp
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__type_support.cpp
+[1.179s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/encoders__type_support.cpp
+[1.180s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/include/nexus_base_ros/nexus_base_ros/msg/detail/motors__rosidl_typesupport_introspection_cpp.hpp
+[1.180s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_introspection_cpp.so
+[1.180s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_typesupport_cpp.so
+[1.180s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/pythonpath.sh
+[1.181s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/pythonpath.dsv
+[1.181s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info
+[1.181s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.181s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/PKG-INFO
+[1.181s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.181s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros-1.0.0-py3.10.egg-info/top_level.txt
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/libnexus_base_ros__rosidl_generator_py.so
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.182s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_introspection_c.c
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/_nexus_base_ros_s.ep.rosidl_typesupport_c.c
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_arming_enable.py
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_emergency_stop_enable_s.c
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/__init__.py
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_arming_enable_s.c
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv/_emergency_stop_enable.py
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg
+[1.183s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_encoders.py
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_motors.py
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_encoders_s.c
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/_motors_s.c
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg/__init__.py
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/__init__.py
+[1.184s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.220s] Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros'...
+[1.221s] Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/msg'...
+[1.221s] Listing '/home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/srv'...
+[1.227s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.228s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.228s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/local/lib/python3.10/dist-packages/nexus_base_ros/nexus_base_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.228s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/libnexus_base_ros__rosidl_generator_py.so
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Encoders.idl
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Motors.idl
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable.idl
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable.idl
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Encoders.msg
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/msg/Motors.msg
+[1.229s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable.srv
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable_Request.msg
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/EmergencyStopEnable_Response.msg
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable.srv
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable_Request.msg
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/srv/ArmingEnable_Response.msg
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_serial_bridge
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_odometry
+[1.230s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/lib/nexus_base_ros/nexus_teleop_joy
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/launch
+[1.231s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/launch/nexus_bringup.launch.py
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/package_run_dependencies/nexus_base_ros
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/parent_prefix_path/nexus_base_ros
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/ament_prefix_path.sh
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/ament_prefix_path.dsv
+[1.231s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/path.sh
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/environment/path.dsv
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.bash
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.sh
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.zsh
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/local_setup.dsv
+[1.232s] -- Installing: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/package.dsv
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/ament_index/resource_index/packages/nexus_base_ros
+[1.232s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cExport.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cExport-noconfig.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_cppExport.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cExport.cmake
+[1.233s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cExport.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cppExport.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cppExport.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_pyExport.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/export_nexus_base_ros__rosidl_generator_pyExport-noconfig.cmake
+[1.234s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/ament_cmake_export_targets-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_rosConfig.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/cmake/nexus_base_rosConfig-version.cmake
+[1.235s] -- Up-to-date: /home/hs/ros2_study/install/nexus_base_ros/share/nexus_base_ros/package.xml
+[1.237s] Invoked command in '/home/hs/ros2_study/build/nexus_base_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hs/ros2_study/install/bno055:/opt/ros/humble /usr/local/bin/cmake --install /home/hs/ros2_study/build/nexus_base_ros

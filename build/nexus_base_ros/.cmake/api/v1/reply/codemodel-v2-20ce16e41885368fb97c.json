@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fdee156a1f6659ed2f81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "nexus_base_ros__py",
+					"jsonFile" : "directory-nexus_base_ros__py-b1e60165964ffa1cc1e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hs/ros2_study/build/nexus_base_ros/nexus_base_ros__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nexus_base_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nexus_base_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nexus_base_ros_egg-3c29b4708653eba8d96b.json",
+					"name" : "ament_cmake_python_build_nexus_base_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_nexus_base_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_nexus_base_ros-9ca834a57de33ea279c3.json",
+					"name" : "ament_cmake_python_copy_nexus_base_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros-4420e1aa8f313f0cf4d7.json",
+					"name" : "nexus_base_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__cpp-08feee987b4c4cabc7b0.json",
+					"name" : "nexus_base_ros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nexus_base_ros__py::@c5718dede4167f5868c0",
+					"jsonFile" : "target-nexus_base_ros__py-0e396ddc2a0973244156.json",
+					"name" : "nexus_base_ros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_generator_c-7a56eb5956b653bd92a8.json",
+					"name" : "nexus_base_ros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_generator_py-4a090a0b99cd6461f4d8.json",
+					"name" : "nexus_base_ros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_c-3ee50bb8d61c9e1f53d9.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_c__pyext-4b440803fa3e7f952922.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_cpp-e87ee56811d596ad79bd.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_fastrtps_c-1ccce64ef2bdb58486a2.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_fastrtps_c__pyext-dca7ced42e3281d0c528.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_fastrtps_cpp-7eaec618d55033677d96.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_introspection_c-cfbe5a11384643cbd538.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_introspection_c__pyext-129a960a257b014c6b61.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros__rosidl_typesupport_introspection_cpp-28296c0dfdc623bcd663.json",
+					"name" : "nexus_base_ros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_base_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_base_ros_uninstall-9d7c2c1f08fe4a06f661.json",
+					"name" : "nexus_base_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_odometry-20994bb97273d7596a33.json",
+					"name" : "nexus_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_serial_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_serial_bridge-02761d2c461ce2c25975.json",
+					"name" : "nexus_serial_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nexus_teleop_joy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nexus_teleop_joy-f41b1a0b0e669ce7e95e.json",
+					"name" : "nexus_teleop_joy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-170c656ba14dba2fef75.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hs/ros2_study/build/nexus_base_ros",
+		"source" : "/home/hs/ros2_study/src/nexus_base_ros-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

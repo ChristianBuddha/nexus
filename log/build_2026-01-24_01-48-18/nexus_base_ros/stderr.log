@@ -1,0 +1,42 @@
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:25:42:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   25 | constexpr int kDefaultBaudrate = 115200; [01;31m[K#[m[K Serial baudrate
+      |                                          [01;31m[K^[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:26:43:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   26 | constexpr double kDefaultTxRateHz = 20.0; [01;31m[K#[m[K Command transmission rate in Hz
+      |                                           [01;31m[K^[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:27:44:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   27 | constexpr int kDefaultCmdTimeoutMs = 250;  [01;31m[K#[m[K Command timeout in milliseconds
+      |                                            [01;31m[K^[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:28:43:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+   28 | constexpr size_t kLineBufferSize = 256;   [01;31m[K#[m[K Buffer size for reading lines from serial
+      |                                           [01;31m[K^[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:25:44:[m[K [01;31m[Kerror: [m[K‘[01m[KSerial[m[K’ does not name a type
+   25 | constexpr int kDefaultBaudrate = 115200; # [01;31m[KSerial[m[K baudrate
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:26:45:[m[K [01;31m[Kerror: [m[K‘[01m[KCommand[m[K’ does not name a type
+   26 | constexpr double kDefaultTxRateHz = 20.0; # [01;31m[KCommand[m[K transmission rate in Hz
+      |                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:27:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCommand[m[K’ does not name a type
+   27 | constexpr int kDefaultCmdTimeoutMs = 250;  # [01;31m[KCommand[m[K timeout in milliseconds
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:28:45:[m[K [01;31m[Kerror: [m[K‘[01m[KBuffer[m[K’ does not name a type
+   28 | constexpr size_t kLineBufferSize = 256;   # [01;31m[KBuffer[m[K size for reading lines from serial
+      |                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:[m[K In constructor ‘[01m[KNexusSerialBridge::NexusSerialBridge()[m[K’:
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:42:59:[m[K [01;31m[Kerror: [m[K‘[01m[KkDefaultTxRateHz[m[K’ was not declared in this scope
+   42 |     tx_rate_hz_ = declare_parameter<double>("tx_rate_hz", [01;31m[KkDefaultTxRateHz[m[K);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:43:64:[m[K [01;31m[Kerror: [m[K‘[01m[KkDefaultCmdTimeoutMs[m[K’ was not declared in this scope
+   43 |     cmd_timeout_ms_ = declare_parameter<int>("cmd_timeout_ms", [01;31m[KkDefaultCmdTimeoutMs[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:[m[K In member function ‘[01m[Kvoid NexusSerialBridge::sendLatestCmd()[m[K’:
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:165:15:[m[K [01;31m[Kerror: [m[K‘[01m[KkLineBufferSize[m[K’ was not declared in this scope
+  165 |     char line[[01;31m[KkLineBufferSize[m[K];
+      |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hs/ros2_study/src/nexus_base_ros-master/src/nexus_serial_bridge.cpp:166:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kline[m[K’ was not declared in this scope; did you mean ‘[01m[Klink[m[K’?
+  166 |     std::snprintf([01;31m[Kline[m[K, sizeof(line), "TWIST %.0f %.0f %.0f\n", vx, vy, wz);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Klink[m[K
+gmake[2]: *** [CMakeFiles/nexus_serial_bridge.dir/build.make:76: CMakeFiles/nexus_serial_bridge.dir/src/nexus_serial_bridge.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/nexus_serial_bridge.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2
