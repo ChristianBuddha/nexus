@@ -37,7 +37,7 @@ public:
     running_(true),
     armed_(true),
     has_cmd_(false) {
-    port_ = declare_parameter<std::string>("serial_port", "/dev/ttyUSB0");
+    port_ = declare_parameter<std::string>("serial_port", "/dev/ttyNEXUS");
     baudrate_ = declare_parameter<int>("serial_baud", kDefaultBaudrate);
     tx_rate_hz_ = declare_parameter<double>("tx_rate_hz", kDefaultTxRateHz);
     cmd_timeout_ms_ = declare_parameter<int>("cmd_timeout_ms", kDefaultCmdTimeoutMs);
