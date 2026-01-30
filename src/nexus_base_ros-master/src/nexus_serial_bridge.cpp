@@ -194,9 +194,9 @@ private:
     msg.header.stamp = now();
     msg.header.frame_id = frame_id_;
     msg.enc0 = clampToInt16(v1);
-    msg.enc1 = clampToInt16(-v4);
-    msg.enc2 = clampToInt16(-v3);
-    msg.enc3 = clampToInt16(v2);
+    msg.enc1 = clampToInt16(v2);
+    msg.enc2 = clampToInt16(v3);
+    msg.enc3 = clampToInt16(v4);
     wheel_vel_pub_->publish(msg);
   }
 

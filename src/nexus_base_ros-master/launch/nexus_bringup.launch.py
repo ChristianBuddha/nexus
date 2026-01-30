@@ -45,18 +45,6 @@ def generate_launch_description():
         ),
 
         Node(
-            package="joy",
-            executable="joy_node",
-            name="joystick",
-            condition=IfCondition(LaunchConfiguration("use_joystick")),
-            parameters=[{
-                "dev": "/dev/input/js0",
-                "deadzone": 0.05
-            }],
-            output="screen",
-        ),
-
-        Node(
             package="nexus_base_ros",
             executable="nexus_teleop_joy",
             name="teleop_joy",
@@ -106,9 +94,9 @@ def generate_launch_description():
                 LaunchConfiguration("imu_x"),
                 LaunchConfiguration("imu_y"),
                 LaunchConfiguration("imu_z"),
-                LaunchConfiguration("imu_roll"),
-                LaunchConfiguration("imu_pitch"),
                 LaunchConfiguration("imu_yaw"),
+                LaunchConfiguration("imu_pitch"),
+                LaunchConfiguration("imu_roll"),
                 LaunchConfiguration("base_frame"),
                 "imu_link",
             ],
@@ -122,9 +110,9 @@ def generate_launch_description():
                 LaunchConfiguration("laser_x"),
                 LaunchConfiguration("laser_y"),
                 LaunchConfiguration("laser_z"),
-                LaunchConfiguration("laser_roll"),
-                LaunchConfiguration("laser_pitch"),
                 LaunchConfiguration("laser_yaw"),
+                LaunchConfiguration("laser_pitch"),
+                LaunchConfiguration("laser_roll"),
                 LaunchConfiguration("base_frame"),
                 "laser",
             ],

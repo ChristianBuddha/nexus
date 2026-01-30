@@ -42,7 +42,7 @@ private:
         vel.linear.x = max_vel_x_ * msg->axes[axis_linear_x_];
       }
       if (static_cast<size_t>(axis_linear_y_) < msg->axes.size()) {
-        vel.linear.y = -max_vel_y_ * msg->axes[axis_linear_y_];
+        vel.linear.y = max_vel_y_ * msg->axes[axis_linear_y_];
       }
       if (static_cast<size_t>(axis_angular_z_) < msg->axes.size()) {
         vel.angular.z = -max_vel_th_ * msg->axes[axis_angular_z_];
