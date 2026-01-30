@@ -62,10 +62,6 @@ ament_target_dependencies(nexus_teleop_joy
   sensor_msgs
 )
 
-add_executable(imu_viz_broadcaster src/imu_viz_broadcaster.cpp)
-ament_target_dependencies(imu_viz_broadcaster
-  rclcpp sensor_msgs geometry_msgs tf2_ros
-)
 
 rosidl_target_interfaces(nexus_serial_bridge ${PROJECT_NAME} "rosidl_typesupport_cpp")
 rosidl_target_interfaces(nexus_odometry ${PROJECT_NAME} "rosidl_typesupport_cpp")
@@ -75,7 +71,6 @@ install(TARGETS
   nexus_serial_bridge
   nexus_odometry
   nexus_teleop_joy
-  imu_viz_broadcaster
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -86,6 +81,5 @@ install(DIRECTORY launch
 install(DIRECTORY config
   DESTINATION share/${PROJECT_NAME}
 )
-
 
 ament_package()

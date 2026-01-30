@@ -30,7 +30,7 @@ public:
     wheel_separation_length_ = declare_parameter<double>("wheel_separation_length", kDefaultWheelSeparationLength);
     update_rate_hz_ = declare_parameter<double>("update_rate_hz", kDefaultUpdateRateHz);
 
-    odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("sensor_odom", rclcpp::SensorDataQoS());
+    odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("sensor_odom", rclcpp::QoS(10).reliable());
     wheel_sub_ = create_subscription<nexus_base_ros::msg::Encoders>(
       "wheel_vel",
       rclcpp::SensorDataQoS(),
@@ -42,7 +42,7 @@ public:
 
     auto period = std::chrono::duration<double>(1.0 / std::max(1e-3, update_rate_hz_));
     update_timer_ = create_wall_timer(period, std::bind(&NexusOdometry::update, this));
-    last_time_ = now();
+    last_time_ = rclcpp::Time(0, 0, RCL_ROS_TIME);
   }
 
 private:
@@ -66,7 +66,11 @@ private:
       return;
     }
 
-    auto current_time = now();
+    rclcpp::Time current_time = sample.stamp;
+    if (last_time_.nanoseconds() == 0) {
+      last_time_ = current_time;
+      return;
+    }
     double dt = (current_time - last_time_).seconds();
     if (dt <= 0.0) {
       return;
@@ -79,9 +83,9 @@ private:
     double v_rf = static_cast<double>(sample.rf) / 1000.0;
 
     double k = (wheel_separation_width_ / 2.0) + (wheel_separation_length_ / 2.0);
-    double linear_x = (-v_lf + v_rf - v_lr + v_rr) / 4.0;
-    double linear_y = (v_lf + v_rf - v_lr - v_rr) / 4.0;
-    double angular_z = (v_lf + v_rf + v_lr + v_rr) / (4.0 * k);
+    double linear_x = -(-v_lf + v_rf - v_lr + v_rr) / 4.0;
+    double linear_y = -(v_lf + v_rf - v_lr - v_rr) / 4.0;
+    double angular_z = -(v_lf + v_rf + v_lr + v_rr) / (4.0 * k);
 
     double delta_heading = angular_z * dt;
     double delta_x = (linear_x * std::cos(heading_) - linear_y * std::sin(heading_)) * dt;
@@ -95,7 +99,11 @@ private:
     odom_quat.setRPY(0.0, 0.0, heading_);
 
     nav_msgs::msg::Odometry odom;
-    odom.header.stamp = current_time;
+    {
+      uint64_t tns = current_time.nanoseconds();
+      odom.header.stamp.sec = static_cast<int32_t>(tns / 1000000000ULL);
+      odom.header.stamp.nanosec = static_cast<uint32_t>(tns % 1000000000ULL);
+    }
     odom.header.frame_id = frame_id_;
     odom.child_frame_id = child_frame_id_;
     odom.pose.pose.position.x = x_pos_;
@@ -119,7 +127,11 @@ private:
 
     if (publish_tf_ && tf_broadcaster_) {
       geometry_msgs::msg::TransformStamped odom_tf;
-      odom_tf.header.stamp = current_time;
+      {
+        uint64_t tns = current_time.nanoseconds();
+        odom_tf.header.stamp.sec = static_cast<int32_t>(tns / 1000000000ULL);
+        odom_tf.header.stamp.nanosec = static_cast<uint32_t>(tns % 1000000000ULL);
+      }
       odom_tf.header.frame_id = frame_id_;
       odom_tf.child_frame_id = child_frame_id_;
       odom_tf.transform.translation.x = x_pos_;
@@ -168,3 +180,4 @@ int main(int argc, char **argv) {
   rclcpp::shutdown();
   return 0;
 }
+
