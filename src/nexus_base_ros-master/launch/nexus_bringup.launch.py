@@ -80,7 +80,7 @@ def generate_launch_description():
             name="nexus_odometry",
             parameters=[{
                 "frame_id": LaunchConfiguration("odom_frame"),
-                "child_frame_id": LaunchConfiguration("base_frame"),
+                "child_frame_id": "base_footprint",
                 "publish_tf": LaunchConfiguration("publish_tf"),
             }],
             output="screen",
@@ -125,5 +125,21 @@ def generate_launch_description():
             parameters=[LaunchConfiguration("bno055_params")],
             output="screen",
         ),
-        
+
+        Node(
+            package="tf2_ros",
+            executable="static_transform_publisher",
+            name="static_tf_base_footprint_to_base_link",
+            arguments=[
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "base_footprint",
+                "base_link",
+            ],
+        ),
+    
     ])
