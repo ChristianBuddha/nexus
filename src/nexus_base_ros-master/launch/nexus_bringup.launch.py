@@ -17,9 +17,9 @@ def generate_launch_description():
         DeclareLaunchArgument("axis_linear_x", default_value="3"),
         DeclareLaunchArgument("axis_linear_y", default_value="2"),
         DeclareLaunchArgument("axis_angular_z", default_value="0"),
-        DeclareLaunchArgument("max_vel_x", default_value="1.0"),
-        DeclareLaunchArgument("max_vel_y", default_value="1.0"),
-        DeclareLaunchArgument("max_vel_th", default_value="0.785398"),
+        DeclareLaunchArgument("max_vel_x", default_value="0.2"),
+        DeclareLaunchArgument("max_vel_y", default_value="0.2"),
+        DeclareLaunchArgument("max_vel_th", default_value="0.2"),
         DeclareLaunchArgument("odom_frame", default_value="odom"),
         DeclareLaunchArgument("base_frame", default_value="base_link"),
         DeclareLaunchArgument("publish_tf", default_value="true"),
@@ -34,7 +34,7 @@ def generate_launch_description():
         DeclareLaunchArgument("laser_z", default_value="0.0"),
         DeclareLaunchArgument("laser_roll", default_value="0.0"),
         DeclareLaunchArgument("laser_pitch", default_value="0.0"),
-        DeclareLaunchArgument("laser_yaw", default_value="0.0"),
+        DeclareLaunchArgument("laser_yaw", default_value="3.141592653"),
         DeclareLaunchArgument(
             "bno055_params",
             default_value=PathJoinSubstitution([

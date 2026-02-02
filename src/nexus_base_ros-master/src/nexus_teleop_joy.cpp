@@ -20,8 +20,8 @@ public:
     axis_linear_x_ = declare_parameter<int>("axis_linear_x", 3);
     axis_linear_y_ = declare_parameter<int>("axis_linear_y", 2);
     axis_angular_z_ = declare_parameter<int>("axis_angular_z", 0);
-    max_vel_x_ = declare_parameter<double>("max_vel_x", 1.0);
-    max_vel_y_ = declare_parameter<double>("max_vel_y", 1.0);
+    max_vel_x_ = declare_parameter<double>("max_vel_x", 0.3);
+    max_vel_y_ = declare_parameter<double>("max_vel_y", 0.3);
     max_vel_th_ = declare_parameter<double>("max_vel_th", M_PI_4);
 
     vel_pub_ = create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 1);
@@ -32,7 +32,7 @@ public:
 
     emergency_cli_ = create_client<nexus_base_ros::srv::EmergencyStopEnable>("emergency_stop_enable");
     arming_cli_ = create_client<nexus_base_ros::srv::ArmingEnable>("arming_enable");
-  }
+  } 
 
 private:
   void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg) {
@@ -45,7 +45,7 @@ private:
         vel.linear.y = max_vel_y_ * msg->axes[axis_linear_y_];
       }
       if (static_cast<size_t>(axis_angular_z_) < msg->axes.size()) {
-        vel.angular.z = -max_vel_th_ * msg->axes[axis_angular_z_];
+        vel.angular.z = max_vel_th_ * msg->axes[axis_angular_z_];
       }
     }
 
